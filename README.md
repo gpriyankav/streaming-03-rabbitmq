@@ -78,10 +78,6 @@ pip list
 
 ![verifying setup](./images/verify-setup.png)
 python util_about.py </br>
-</br>
-======================================================================
-======================================================================
-</br>
  Welcome to the NW Python Debugging Information Utility!</br>
  Date and Time: 2023-09-08 at 08:11 AM</br>
  Operating System: nt Windows 10</br>
@@ -104,9 +100,6 @@ python util_about.py </br>
  Preferred command:           python</br>
  Is python available in PATH:   True</br>
  Is git available in PATH:      True</br>
-======================================================================
-======================================================================
-</br>
 ## Task 5. Read
 
 1. Read the [RabbitMQ Hello World! tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
