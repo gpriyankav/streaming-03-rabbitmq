@@ -76,7 +76,8 @@ python util_about.py
 python util_aboutenv.py
 python util_aboutrabbit.py
 pip list
-```</br>![Aboutenv](image.png)
+```
+</br>![Aboutenv](image.png)
 ## Task 5. Read
 
 1. Read the [RabbitMQ Hello World! tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
