@@ -1,5 +1,7 @@
 # streaming-03-rabbitmq
 
+Priyanka Gorentla Modified on 09/08/2023
+
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
 This project requires some free code - beyond that available in the Python Standard Library. To avoid messing up our local default Python installation, and any other Python projects we may have, we  create a local virtual environment to install and use these libraries.
@@ -74,53 +76,7 @@ python util_about.py
 python util_aboutenv.py
 python util_aboutrabbit.py
 pip list
-```
-
-![verifying setup](./images/verify-setup.png)</br>
- util_about.py </br>
- Welcome to the NW Python Debugging Information Utility!</br>
- Date and Time: 2023-09-08 at 08:11 AM</br>
- Operating System: nt Windows 10</br>
- System Architecture: 64bit</br>
- Number of CPUs: 20</br>
- Machine Type: AMD64</br>
- Python Version: 3.9.13</br>
- Python Build Date and Compiler: main with Aug 25 2022 23:51:50</br>
- Python Implementation: CPython</br>
- Active pip environment:   None</br>
- Active conda environment: None</br>
- Path to Interpreter:         C:\Users\KONGA\Documents\streaming-03-rabbitmq\.venv\Scripts\python.exe</br>
- Path to virtual environment: C:\Users\KONGA\Documents\streaming-03-rabbitmq\.venv</br>
- Current Working Directory:   C:\Users\KONGA\Documents\streaming-03-rabbitmq</br>
- Path to source directory:    C:\Users\KONGA\Documents\streaming-03-rabbitmq</br>
- Path to script file:         C:\Users\KONGA\Documents\streaming-03-rabbitmq\util_about.py</br>
- User's Home Directory:       C:\Users\KONGA</br>
- Terminal Environment:        Native Terminal</br>
- Terminal Type:               cmd.exe</br>
- Preferred command:           python</br>
- Is python available in PATH:   True</br>
- Is git available in PATH:      True</br>
-</br>
-</br>
-util_aboutenv.py</br>
-
-![Aboutenv](image.png)
-(.venv) C:\Users\KONGA\Documents\streaming-03-rabbitmq>python util_aboutenv.py</br>
-======================================================================</br>
-Welcome to the Python Debugging Information Utility ABOUTENV.PY</br>
-Date and Time: 2023-09-08 at 08:11 AM</br>
-======================================================================</br>
-======================================================================</br>
-YAY! .venv directory exists.</br>
-======================================================================</br>
-YAY! The .venv virtual environment is active.</br>
-======================================================================</br>
-YAY! All dependencies are installed in the .venv.</br>
-======================================================================</br>
-
-All checks passed successfully! Your environment is set up correctly.</br>
-If it asks you to upgrade pip, please do so using the suggested command.</br>
-
+```</br>![Aboutenv](image.png)
 ## Task 5. Read
 
 1. Read the [RabbitMQ Hello World! tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
@@ -143,14 +99,13 @@ We can execute additional commands in the terminal as soon as it finishes.
 1. Run the file.
 
 You'll need to fix an error in the program to get it to run.
-Once it runs successfully, will it terminate on its own? How do you know? 
-As long as the process is running, we cannot use this terminal for other commands. 
+Once it runs successfully, will it terminate on its own? How do you know? It won't termiante on its own we need to use CTRL+C to terminate.As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Task 8. Open a New Terminal / Emit More Messages
 
 1. Open a new terminal window.
 1. Use this new window to run emit_message.py again.
-1. Watch the listing terminal - what do you see?  A second message?
+1. Watch the listing terminal - what do you see?  A second message? Yes, We could see messages based on how many we emitted.
 
 Sending the same message each time is kind of boring. This time:
 
@@ -161,6 +116,8 @@ Sending the same message each time is kind of boring. This time:
 
 Repeat this process several times - emit at least 4 different messages.
 Don't worry - it's just code. We can always revert back (try the 'undo' command in VS Code) to a version that works. You can't hurt anything.
+
+![Alt text](image-1.png)
 
 ## Task 9. Save Time & Effort: Don't Repeat Yourself
 
@@ -184,21 +141,22 @@ and a consistent, reusable approach to building code.
 
 Each of the version 2 programs include an error as well. 
 
-1. Find the error and fix it. 
+1. Find the error and fix it. Ans. Spelling mistake of local host and adding username, password to establish connections.
 1. Compare the structure of the version 2 files. 
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? for readability
 1. Then, define your functions.
 1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection? close()
 1. Search GitHub for if __name__ == "__main__":
 1. How many hits did you get? 
 1. Learn and understand this common Python idiom.
+![Alt text](<Terminal screenshot-2-2.png>)
 
 ## Reference
 

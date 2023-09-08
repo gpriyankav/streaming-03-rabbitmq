@@ -1,4 +1,6 @@
 """
+Priyanka Gorentla
+Date : 09/08/2023
     This program sends a message to a queue on the RabbitMQ server.
 
 """
@@ -6,7 +8,7 @@
 import pika
 
 # define message to send
-MESSAGE = 'Now I can send all the messages!'
+MESSAGE = 'All the best for future courses'
 
 # create a blocking connection to the RabbitMQ server
 conn = pika.BlockingConnection(pika.ConnectionParameters(
