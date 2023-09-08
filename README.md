@@ -76,8 +76,8 @@ python util_aboutrabbit.py
 pip list
 ```
 
-![verifying setup](./images/verify-setup.png)
-python util_about.py </br>
+![verifying setup](./images/verify-setup.png)</br>
+ util_about.py </br>
  Welcome to the NW Python Debugging Information Utility!</br>
  Date and Time: 2023-09-08 at 08:11 AM</br>
  Operating System: nt Windows 10</br>
@@ -100,6 +100,27 @@ python util_about.py </br>
  Preferred command:           python</br>
  Is python available in PATH:   True</br>
  Is git available in PATH:      True</br>
+</br>
+</br>
+util_aboutenv.py</br>
+
+![Aboutenv](image.png)
+(.venv) C:\Users\KONGA\Documents\streaming-03-rabbitmq>python util_aboutenv.py</br>
+======================================================================</br>
+Welcome to the Python Debugging Information Utility ABOUTENV.PY</br>
+Date and Time: 2023-09-08 at 08:11 AM</br>
+======================================================================</br>
+======================================================================</br>
+YAY! .venv directory exists.</br>
+======================================================================</br>
+YAY! The .venv virtual environment is active.</br>
+======================================================================</br>
+YAY! All dependencies are installed in the .venv.</br>
+======================================================================</br>
+
+All checks passed successfully! Your environment is set up correctly.</br>
+If it asks you to upgrade pip, please do so using the suggested command.</br>
+
 ## Task 5. Read
 
 1. Read the [RabbitMQ Hello World! tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)

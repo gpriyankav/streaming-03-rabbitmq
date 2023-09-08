@@ -1,7 +1,11 @@
-2023-09-07 14:18:07,413.v2_listen_for_messages.INFO ==================================================
-2023-09-07 14:18:07,414.v2_listen_for_messages.INFO Today is 2023-09-07 at 02:18 PM
-2023-09-07 14:18:07,415.v2_listen_for_messages.INFO Running on: nt Windows 10
-2023-09-07 14:18:07,415.v2_listen_for_messages.INFO Python version:  3.9.13
-2023-09-07 14:18:07,416.v2_listen_for_messages.INFO Python path: C:\Users\KONGA\anaconda3
-2023-09-07 14:18:07,416.v2_listen_for_messages.INFO Working dir: C:\Users\KONGA\Documents\streaming-03-rabbitmq
-2023-09-07 14:18:07,417.v2_listen_for_messages.INFO ==================================================
+2023-09-08 15:55:20,052.v2_listen_for_messages.INFO ==================================================
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO Today is 2023-09-08 at 03:55 PM
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO Running on: nt Windows 10
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO Python version:  3.10.8
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO Python path: C:\Users\KONGA\miniconda3
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO Working dir: C:\Users\KONGA\Documents\streaming-03-rabbitmq
+2023-09-08 15:55:20,053.v2_listen_for_messages.INFO ==================================================
+2023-09-08 15:55:20,066.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
+2023-09-08 15:55:20,066.v2_listen_for_messages.INFO Received: Hy Buddy!Hope you are doing great
+2023-09-08 15:56:00,096.v2_listen_for_messages.WARNING User interrupted the listening process.
+2023-09-08 15:56:00,096.v2_listen_for_messages.INFO Closing connection. Goodbye.

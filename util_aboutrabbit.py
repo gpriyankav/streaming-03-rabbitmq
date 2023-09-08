@@ -104,7 +104,9 @@ def is_rabbitmq_installed():
 def is_rabbitmq_running():
     """Return True if RabbitMQ is running, False otherwise."""
     try:
-        connection = pika.BlockingConnection(pika.ConnectionParameters("localhost"))
+        connection = pika.BlockingConnection(pika.ConnectionParameters(
+        host="localhost",
+        credentials=pika.PlainCredentials(username="guest", password="Vijjulu@12")))
         connection.close()
         return True
     except pika.exceptions.AMQPConnectionError:

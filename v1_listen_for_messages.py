@@ -1,5 +1,4 @@
 """
-
 Listens for messages on the queue.
 This process runs continuously. 
 
@@ -30,9 +29,9 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(
-        pika.ConnectionParameters(host="looooocalhost")
-    )
+    connection  = pika.BlockingConnection(pika.ConnectionParameters(
+    host="localhost",
+    credentials=pika.PlainCredentials(username="guest", password="Vijjulu@12")))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue

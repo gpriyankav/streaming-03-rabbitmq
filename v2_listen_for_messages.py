@@ -1,5 +1,4 @@
 """
-
 Message listener 
 
 Description:
@@ -51,14 +50,16 @@ def process_message(ch, method, properties, body):
 # define a main function to run the program
 # pass in the hostname as a string parameter if you like
 # if no argument is provided, set a default value to localhost
-def main(hn: str = "localhosttt"):
+def main(hn: str):
     """Main program entry point."""
 
     # when a statement can go wrong, use a try-except block
     try:
         # try this code, if it works, keep going
         # create a blocking connection to the RabbitMQ server
-        connection = pika.BlockingConnection(pika.ConnectionParameters(host=hn))
+        connection = pika.BlockingConnection(pika.ConnectionParameters(
+        host=hn,
+        credentials=pika.PlainCredentials(username="guest", password="Vijjulu@12")))
 
     # except, if there's an error, do this
     except Exception as e:
@@ -107,4 +108,4 @@ def main(hn: str = "localhosttt"):
 # If this is the script we are running, then call some functions and execute code!
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    main()
+    main("localhost")
