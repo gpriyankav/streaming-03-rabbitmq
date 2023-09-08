@@ -36,7 +36,7 @@ We will create a local Python virtual environment to isolate our project's third
 ```shell
 python -m venv .venv
 ```
-
+.
 Verify you get a new .venv directory in your project. 
 We use .venv as the name to keep it away from our project files. 
 
@@ -77,8 +77,35 @@ pip list
 ```
 
 ![verifying setup](./images/verify-setup.png)
-
-
+python util_about.py </br>
+</br>
+======================================================================
+======================================================================
+ Welcome to the NW Python Debugging Information Utility!
+ Date and Time: 2023-09-08 at 08:11 AM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 20
+ Machine Type: AMD64
+ Python Version: 3.9.13
+ Python Build Date and Compiler: main with Aug 25 2022 23:51:50
+ Python Implementation: CPython
+ Active pip environment:   None
+ Active conda environment: None
+ Path to Interpreter:         C:\Users\KONGA\Documents\streaming-03-rabbitmq\.venv\Scripts\python.exe
+ Path to virtual environment: C:\Users\KONGA\Documents\streaming-03-rabbitmq\.venv
+ Current Working Directory:   C:\Users\KONGA\Documents\streaming-03-rabbitmq
+ Path to source directory:    C:\Users\KONGA\Documents\streaming-03-rabbitmq
+ Path to script file:         C:\Users\KONGA\Documents\streaming-03-rabbitmq\util_about.py
+ User's Home Directory:       C:\Users\KONGA
+ Terminal Environment:        Native Terminal
+ Terminal Type:               cmd.exe
+ Preferred command:           python
+ Is python available in PATH:   True
+ Is git available in PATH:      True
+======================================================================
+======================================================================
+</br>
 ## Task 5. Read
 
 1. Read the [RabbitMQ Hello World! tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)

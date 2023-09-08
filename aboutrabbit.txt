@@ -1,0 +1,6 @@
+======================================================================
+Welcome to the Python Debugging Information Utility ABOUTRABBIT.PY
+Date and Time: 2023-09-08 at 08:11 AM
+======================================================================
+ERROR: RabbitMQ is NOT installed. Please install RabbitMQ.
+======================================================================

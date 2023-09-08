@@ -1,0 +1,8 @@
+2023-09-08 07:51:34,207.v2_emit_message.INFO ==================================================
+2023-09-08 07:51:34,208.v2_emit_message.INFO Today is 2023-09-08 at 07:51 AM
+2023-09-08 07:51:34,208.v2_emit_message.INFO Running on: nt Windows 10
+2023-09-08 07:51:34,208.v2_emit_message.INFO Python version:  3.9.13
+2023-09-08 07:51:34,209.v2_emit_message.INFO Python path: C:\Users\KONGA\anaconda3
+2023-09-08 07:51:34,209.v2_emit_message.INFO Working dir: C:\Users\KONGA\Documents\streaming-03-rabbitmq
+2023-09-08 07:51:34,209.v2_emit_message.INFO ==================================================
+2023-09-08 07:51:34,239.v2_emit_message.INFO  [x] Sent How are you buddy?
